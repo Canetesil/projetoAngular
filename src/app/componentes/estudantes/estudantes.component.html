@@ -1,0 +1,29 @@
+
+
+
+<div class="container">
+    <h1>Lista de Estudantes </h1>
+
+
+    <table class="table table-secondary">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Nome</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Estado civil</th>
+               
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor = "let estudante of estudantes">
+                <th scope="row">{{estudante.id}}</th>
+                  <td>{{estudante.nome}}</td>
+                  <td>{{estudante.idade}}</td>
+                  <td>{{estudante.estado}}</td>
+                </tr>
+              
+            </tbody>
+          </table>
+
+</div>
