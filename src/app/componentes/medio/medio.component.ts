@@ -1,12 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-estudantes',
-  templateUrl: './estudantes.component.html',
-  styleUrls: ['./estudantes.component.css']
+  selector: 'app-medio',
+  templateUrl: './medio.component.html',
+  styleUrls: ['./medio.component.css']
 })
-export class EstudantesComponent implements OnInit {
-  estudantes =[
+export class MedioComponent implements OnInit {
+  estudantes=[
     {
       id: '1',
       nome: 'Vanessa',
